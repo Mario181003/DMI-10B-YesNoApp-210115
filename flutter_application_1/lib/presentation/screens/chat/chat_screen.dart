@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/presentation/widgets/chat/my_message_bubble.dart';
+import 'package:flutter_application_1/presentation/widgets/chat/other_message_bubble.dart';
+import 'package:flutter_application_1/presentation/widgets/shared/message_field_box.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
@@ -8,8 +10,8 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Padding(
-          padding: const EdgeInsets.all(4.0),
+        leading: const Padding(
+          padding:  EdgeInsets.all(4.0),
           child: CircleAvatar(
             backgroundImage: NetworkImage(
                 'https://i.pinimg.com/736x/ba/5d/f7/ba5df704a239872432c72602d1e35fb9.jpg'),
@@ -35,9 +37,11 @@ class _ChatView extends StatelessWidget {
                 child: ListView.builder(
               itemCount: 100,
               itemBuilder: (context, index) {
-                return MyMessageBubble();
+                return (index % 2 == 0)
+                  ? const OtherMessageBubble()
+                  : const MyMessageBubble();
               })),
-              Text('Cristiano')
+              const MessageFieldBox(),
           ],
         ),
       ),
