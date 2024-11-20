@@ -6,15 +6,14 @@
 <br>
 
 <h2 align="center"> Desarrollo Móvil Integral </h2>
-<h2 align="center"> DMI-10B-YesNoApp 210277 </h2>
-<h2 align="center"> Por: Luz Adriana Reyes González </h2>
+<h2 align="center"> DMI-10B-YesNoApp 210115 </h2>
+<h2 align="center"> Por: Mario Gutierrez Rosales </h2>
 <br>
 <h2> Objetivo </h2>
 Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unidad 2 de la asignatura de Desarrollo Móvil Integral, para comprender el usos de Stateless y Statefull Widgets.
 <br>
-<h2 align="center"> Documentación del proyecto </h2>
+<h2> Documentación del proyecto </h2>
 
-# DMI-10B-YesNoApp-210115
 Aplicación realizada en Flutter para Dispositivos Móviles, parte de la Unidad 2 de la asignatura de Desarrollo Móvil Integral, para comprender el uso de Stateless y Statefull Widgets
 
 ## Estructura de las carpetas 
