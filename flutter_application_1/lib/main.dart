@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         title: 'Yes - No App 210115',
         debugShowCheckedModeBanner: false,
         theme: AppTheme(selectedColor: 7).theme(),
-        home: ChatScreen()
+        home: const ChatScreen()
       ),
     );
   }
