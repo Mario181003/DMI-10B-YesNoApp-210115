@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/domain/entities/message.dart';
-
-import 'package:flutter/material.dart';
 import 'package:flutter_application_1/config/helpers/get_yes_no_answer.dart';
-import 'package:flutter_application_1/domain/entities/message.dart';
 
 // Proveedor que gestiona la lógica del chat y las interacciones de mensajes
 // Esta clase utiliza un controlador de scroll para manejar el desplazamiento del chat y contiene métodos para enviar mensajes y manejar respuestas automáticas.
