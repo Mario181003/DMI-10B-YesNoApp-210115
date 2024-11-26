@@ -13,8 +13,14 @@
 Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unidad 2 de la asignatura de Desarrollo Móvil Integral, para comprender el usos de Stateless y Statefull Widgets.
 <br>
 <h2> Documentación del proyecto </h2>
-
 Aplicación realizada en Flutter para Dispositivos Móviles, parte de la Unidad 2 de la asignatura de Desarrollo Móvil Integral, para comprender el uso de Stateless y Statefull Widgets
+
+### HISTORIAL DE PRÁCTICAS:
+|No.|Nombre|Potenciador|Estatus|
+|--|--|--|--|
+|21|Construccion de titulo|6|Finalizada|
+|22|Respuesta fija|7|Finalizada|
+|23|Chat interactivo|10|Activada|
 
 ## Estructura de las carpetas 
 ![alt text](estructuraProyecto.png)
